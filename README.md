@@ -56,82 +56,78 @@
 
 <!-- CSS CODE -->
 body {
-    background: rgb(44, 44, 150);
     font-family: Arial, sans-serif;
     margin: 0;
+    background-color: rgb(232, 174, 200);
     padding: 0;
   }
   
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    text-decoration: underline 2px;
-    text-underline-offset: 10px;
-  }
-  
-  .calculator {
-    width: 80%;
-    max-width: 400px;
-    margin: 20px auto;
-    padding: 20px;
-    background: linear-gradient(180deg, #ffffff, #f2f2f2);
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  header {
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    -webkit-box-shadow: 0 0 4px black;
-     box-shadow: 0 0 4px black;
+    padding: 20px 0;
   }
   
-  .calculator input {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 20px;
-    text-align: right;
-    border: none;
-    border-radius: 4px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  header h1 {
+    margin: 0;
   }
   
-  .calculator button {
-    width: 70px;
-    height: 70px;
-    margin: 5px;
-    font-size: 24px;
-    background-color: #e5e5e5;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  #about1 {
+    text-align: center;
+    padding: 1px 0;
+  }
+  #about {
+    text-align: center;
+    padding: 20px 0;
   }
   
-  .calculator button:hover {
-    background-color: #d4d4d4;
+  #about img {
+    width: 90px;
+    border-radius: 30%;
   }
   
-  .calculator button:active {
-    background-color: #bbbbbb;
+  #skills {
+    text-align: left;
+    padding: 10px 0;
   }
   
-  .buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+  #skills ul {
+    list-style: none;
   }
   
-  @media (max-width: 480px) {
-    .calculator {
-      width: 100%;
-    }
-    
-    .calculator input {
-      font-size: 18rem;
-    }
-    
-    .calculator button {
-      width: 60rem;
-      height: 60rem;
-      font-size: 16rem;
-    }
-}
+  #projects {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  #resume,
+  #contact {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #resume a {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
